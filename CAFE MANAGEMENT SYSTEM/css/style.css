@@ -1,0 +1,197 @@
+/* 
+
+Author: Admin;
+Theme:Cafe Management;
+version:1.0;
+
+*/
+/*Css for all*/
+*{
+     margin: 0 0;
+     padding: 0 0;
+     font-family: 'Shippori Mincho', serif;
+
+}
+h2{
+     font-size: 2rem;
+}
+.img-responsive{
+     width: 100%;
+}
+.container{
+     
+     width: 80%;
+     margin: 0 auto;
+     padding: 1%;
+}
+.text-right{
+     text-align: right;
+}
+.text-center{
+     text-align: center;
+     color: red;
+}
+.clearfix{
+     clear: both;
+     float: none;
+}
+a{
+     color: black;
+     text-decoration: none;
+}
+a:hover{
+     color:red;
+}
+.btn{
+     padding: 1%;
+     border: none; 
+     font-size: 1rem;
+     border-radius: 5px;
+
+}
+.btn-primary{
+      color:white;
+      background-color: red;
+      cursor: pointer;
+}
+.btn-primary:hover{
+     background-color: black;
+}
+.float-container{
+     position: relative;
+}
+.float-text{
+     position: absolute;
+     bottom: 392px;
+     left: 40%;   
+ }
+ 
+ .float-text1{
+     position: absolute;
+     bottom: 393px;
+     left: 38%;
+ 
+ }
+ .float-text2{
+     position: absolute;
+     bottom: 392px;
+     left: 21%;
+     
+ }
+ 
+.text-white{
+     color:white;
+}
+.img-curve{
+     border-radius: 15px;
+}
+h3{
+     font-size: 1.4rem;
+}
+/* Navbar */
+.logo{
+    
+     width: 10%;
+     float: left;
+}
+.nav-menu{
+     line-height: 40px;
+}
+.nav-menu ul {
+     list-style-type: none;
+}
+.nav-menu ul li{
+     display: inline;
+     padding: 1%;
+}
+.name{
+     color:red;
+     font-family: 'Shippori Mincho', serif;
+     text-align: center;
+     font-size: 48px;
+}
+.name:hover{
+     color: black;
+}
+
+/* food sreach*/
+.food-search{
+      background-image: url(../assets/bg.jpg);
+      padding: 10% 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+ 
+}
+/* categories*/
+.categories{
+     padding: 4% 0;
+     color: red;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+
+}
+/* food menu*/
+.menu{
+     background-color: #ececec;
+     padding: 4% 0;
+}
+.food-menu{
+  
+     width: 43%;
+     margin: 1%;
+     float: left;
+     padding: 2%;
+     background-color: white;
+     border-radius: 15px;
+}
+.food-menu-img{
+     width: 20%;
+     float: left;
+}
+.food-menu-dscp{
+     width: 70%;
+     float: left;
+     margin-left: 8%;
+}
+.food-Price{
+     font-size: 1.2rem;
+     margin: 2% 0;
+}
+.food-Desp{
+    font-size: 1rem; 
+    color: #747d8c;
+
+}
+.text-color{
+     color:red;
+}
+
+/* SOICAL MEDIA*/
+
+.SoicalMedia ul{
+     list-style-type:none;
+}
+
+.SoicalMedia ul li{
+     display: inline;
+     padding: 1%;
+     margin-top: 1%;
+}
+/* footer*/
+
+.foot-content{
+     text-align: center;
+     color: black;
+}
+
